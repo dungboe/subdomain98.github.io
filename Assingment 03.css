@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ĐÃ ĐƯA BÀI LÊN MẠNG _ TÊN MIỀN: (subdomain98.github.io) */
+
+h2,
+h1 {
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.navmenu ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.boxcol p {
+    font-weight: 400;
+    color: #868e96;
+}
+
+.text {
+    font-weight: 400;
+    color: #868e96;
+}
+
+.fistlist {
+    margin-right: 95px;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.navmenu {
+    margin-top: -8px;
+    margin-bottom: -25px;
+}
+
+.navbar li {
+    border: 1px solid #e9ecef;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    width: 308px;
+    text-align: center;
+}
+
+.navbar i {
+    color: #228be6;
+}
+
+.navlink {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.row {
+    width: 1484px;
+    margin-left: -98px !important;
+}
+
+.row h2 {
+    margin-bottom: 20px;
+}
+
+.colum-1 {
+    background-color: #f1f3f5;
+    padding: 50px;
+}
+
+.colum-2 {
+    background-color: #e9ecef;
+    padding: 50px;
+}
+
+.boxcol {
+    margin-left: 63px;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+.boxcol ul {
+    list-style: none;
+    margin-left: -30px;
+    line-height: 1.9;
+}
+
+.bo1 i {
+    padding-right: 15px;
+    color: #228be6;
+    margin-bottom: -15px;
+}
+
+.boldlist {
+    font-weight: 600;
+}
+
+.boxgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.text-layout1,
+.text-layout2,
+.text-layout3,
+.text-layout4,
+.text-layout5,
+.text-layout6 {
+    border: 1px solid #e9ecef;
+}
+
+.column {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.column h2 {
+    margin-bottom: 50px;
+    padding-left: 1px;
+}
+
+.fist-text {
+    font-weight: 500;
+}
+
+.inline-paragrap {
+    font-style: italic;
+    margin-top: -11px;
+}
+
+.boldbox {
+    background-color: #228be6;
+    color: #fff;
+    border-radius: 7px;
+    padding: 2px 15px;
+}
+
+.mincolum {
+    margin-top: 50px;
+}
+
+.paratex {
+    margin-top: -16px;
+    font-style: italic;
+}
+
+.onecolumn {
+    margin-bottom: 40px;
+}
+
+.maxbar-bo {
+    display: flex;
+    gap: 15px;
+    margin-top: -8px;
+}
+
+.bomin {
+    margin-bottom: 20px;
+}
+
+.bar {
+    border: 1px solid #f1f3f5;
+    width: 46px;
+    height: 4px;
+}
+
+.bar-blue {
+    background-color: #138df7;
+}
+
+.topmargin {
+    margin-top: -11px;
+}
+
+#iconbo {
+    display: flex;
+    gap: 20px;
+}
+
+#iconbo i {
+    border: 1px solid #a5d8ff;
+    transform: scale(1.3);
+    color: #a5d8ff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-bottom: 11px;
+}
+
+
+/* khoảng cách của các chấm  */
+
+.flexbox {
+    display: flex;
+    gap: 20px;
+}
+
+.empty-column {
+    border-radius: 50%;
+    width: 27px;
+    height: 10px;
+    background-color: #228be6;
+    margin-top: 7px;
+}
+
+.flexbox2 {
+    display: flex;
+    gap: 20px;
+    margin-left: -28px;
+}
+
+.empty-column1 {
+    border-radius: 50%;
+    width: 12px;
+    height: 10px;
+    background-color: #228be6;
+    margin-top: 57px;
+}
+
+.flexbox3 {
+    display: flex;
+    gap: 20px;
+}
+
+.empty-column2 {
+    border-radius: 50%;
+    width: 11px;
+    height: 9px;
+    background-color: #228be6;
+    margin-top: 7px;
+}
+
+.flexbox4 {
+    display: flex;
+    gap: 20px;
+}
+
+.empty-column3 {
+    border-radius: 50%;
+    width: 11px;
+    height: 10px;
+    background-color: #228be6;
+    margin-top: 8px;
+}
+
+.flexbox5 {
+    display: flex;
+    gap: 20px;
+}
+
+.empty-column4 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #228be6;
+    margin-top: 7px;
+    margin-left: -31px;
+}
+
+.headtext {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.headtext i {
+    transform: scale(3);
+    margin-top: -85px;
+    color: #e9ecef;
+    left: -3rem;
+    position: relative;
+}
+
+
+/* ---------------------------------- */
+
+
+/* khoảng cách viền trên viền dưới tạo cột sole giữa các cột */
+
+.text-layout2 {
+    margin-bottom: 224px;
+}
+
+.text-layout3 {
+    margin-bottom: 267px;
+}
+
+.text-layout4 {
+    margin-bottom: 240px;
+}
+
+.text-layout5 {
+    margin-top: -224px !important;
+    margin-bottom: 580px;
+}
+
+.text-layout6 {
+    margin-top: -241px !important;
+    margin-bottom: 631px;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* grid layout cột ảnh */
+
+
+/* --------------------------------------------------chiều cao cột "CHỨNG CHỈ-GIẢI THƯỞNG" */
+
+.section-post {
+    background-color: #f1f3f5;
+    margin-top: -263px;
+    height: 35rem;
+}
+
+
+/* CHÚ Ý : section-post ban đầu code không hề cho height và chiều cao của cột "CHỨNG CHỈ-GIẢI THƯỞNG" không hề liên quan đến yếu tố này và kết quả bình thường , tuy nhiên khi chạy lần 2 thì không có yếu tố height lại bị ảnh hưởng và bao trùm cả dự án cho nên phải thêm height phần này */
+
+
+/*---------------------------------------------------- CHIỀU RỘNG CỘT "CHỨNG CHỈ-GIẢI THƯỞNG" */
+
+.postbox {
+    margin: 20px auto;
+    width: 1200px;
+    padding-top: 44px;
+    height: 74vh;
+}
+
+.columimg-fist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 300px);
+    row-gap: 100px;
+}
+
+.columimg-even {
+    border-left: 1px solid #ffd43b;
+    padding-left: 50px;
+    margin-left: -56px;
+    height: 150px;
+}
+
+.topbox {
+    border-top: 1px solid #ffd43b;
+    width: 186%;
+    margin-top: -211px;
+}
+
+.columimg-last {
+    padding-top: 50px;
+}
+
+.postbox h2 {
+    margin-bottom: 30px;
+}
+
+.boldtext-pot {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.lastelement {
+    margin-top: -15px;
+}
+
+
+/* ------------------------------------------- */
+
+
+/* flexlayout  mục chứng chỉ */
+
+.img1 {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+
+/* --------------------------------------------------chỉnh sửa cột ảnh thứ 1 của "CHỨNG CHỈ-GIẢI THƯỞNG" */
+
+.distanceabove {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    position: relative;
+    top: -174px;
+}
+
+
+/* ----------Dự Án------------ */
+
+.postbox-1 {
+    width: 1200px;
+    margin: 60px auto;
+}
+
+.postbox-1 h2 {
+    margin-bottom: 40px;
+}
+
+
+/* --------------------------------------- */
+
+.boxlast-pot2 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #868e96;
+}
+
+.iconmax-box {
+    display: flex;
+    gap: 32px;
+}
+
+.boxlast-pot2 {
+    height: 45px;
+    margin-top: -3px;
+}
+
+.number {
+    padding-left: 8px;
+    width: 47px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #228be6;
+    color: #fff;
+}
+
+.numbersize {
+    font-size: 15px;
+}
+
+.boxlast-pot3 {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    gap: 40px;
+    align-items: flex-start;
+    color: #868e96;
+}
+
+
+/* ----------------------------------------------- */
+
+.icon {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon p {
+    padding-top: 16px;
+    color: #868e96;
+    font-weight: 400;
+}
+
+.icon i {
+    color: #868e96;
+    font-size: 15px;
+}
+
+.potimage {
+    border: 1px solid #dee2e6;
+    width: 372px;
+}
+
+.boxlast-pot1,
+.boxlast-pot2,
+.boxlast-pot3,
+.boxlast-pot4,
+.boxlast-pot5,
+.boxlast-pot6 {
+    border-bottom: 1px solid #ced4da;
+    padding: 9px;
+}
+
+.head-box1 p {
+    padding: 3px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.columproject {
+    padding-left: 5px;
+}
+
+.maxitem {
+    display: flex;
+    gap: 20px;
+}
+
+.itemcoln-1 {
+    margin-bottom: 5px;
+}
+
+
+/* ----------------------------------- */
+
+
+/* bố cục của hộp với 3 icon bên trong  */
+
+.layouticon {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    background-color: #f1f3f5;
+    color: #868e96;
+    justify-content: center;
+    height: 137px;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* bố cục của  lớp icon  và text*/
+
+.minicon {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+
+/* -------------------------------------------- */
+
+
+/* chỉnh sửa text của icon */
+
+.minicon p {
+    padding-top: 14px;
+}
+
+
+/* --------------------------- */
+
+
+/* kích thước của icon 1 và 3 */
+
+.fa-facebook,
+.fa-github {
+    font-size: 26px;
+    color: #228be6;
+}
+
+
+/* ----------------------------- */
+
+
+/* căn chỉnh icon 2  */
+
+.fa-github {
+    padding-left: 60px;
+}
+
+#minicon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+    background-color: #138df7;
+    transform: scale(1.1);
+}
+
+.nonebor {
+    border-bottom: none;
+}

@@ -1,0 +1,448 @@
+/* GIAO DIỆN MÁY TÍNH BẢNG ( TABLET )*/
+
+@media only screen and (max-width:991px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    /* -----------CHỈNH SỬA PHẦN Header --------------*/
+    /*------------------------------------------------------------ KHOẢNG CÁCH , CHIỀU RỘNG CỦA MENU */
+    #img {
+        width: 240%;
+        height: 48rem !important;
+    }
+    /*------------------------------------------------------------ kích thước tiêu đề head và text */
+    .headermax h1 {
+        font-size: 7rem;
+    }
+    .headermax p {
+        font-size: 3rem;
+    }
+    /* ----------------------------------------------------------chiều rộng và khoảng cách MENU */
+    .navbar {
+        width: 200%;
+        margin-left: 10rem;
+    }
+    /* ------------------------------------------------------------kích thước icon MENU */
+    .navbar i {
+        font-size: 30px;
+    }
+    /*-------------------------------------------------------------- chiều rộng danh sách ul */
+    .navbar ul {
+        width: 100%;
+    }
+    /*------------------------------------------------------------- chiều rộng mỗi ô trong Menu */
+    .navbar li {
+        width: 25%;
+        display: grid;
+        grid-template-columns: 5% 56%;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    /* -----------CHỈNH SỬA PHẦN Body Project ----------------*/
+    /*----------------------------------------- chiều rộng của hộp mẹ chứa hai mục "MỤC TIÊU NGHỀ NGHIỆP" và "THÔNG TIN CÁ NHÂN" */
+    .row {
+        width: 293%;
+        font-size: 29px;
+    }
+    .row h2 {
+        margin-bottom: 2rem;
+    }
+    /*----------------------------------------- kích thước tiêu đề và p chung */
+    h2 {
+        font-size: 40px !important;
+    }
+    p {
+        font-size: 25px !important;
+    }
+    /* -----------------------------------------CHIỀU RỘNG CỘT (MỤC TIÊU NGHỀ NGHIỆP) */
+    #colmin-box-1 {
+        width: 51.5%;
+    }
+    /*------------------------------------------CHIỀU RỘNG CỘT (THÔNG TIN CÁ NHÂN)*/
+    #colmin-box-2 {
+        width: 48%;
+        margin-left: -1rem;
+    }
+    .widthbox {
+        width: 82%;
+        padding-left: 6rem;
+    }
+    /*--------------------- leftbo-(NỘI DUNG MỤC THÔNG TIN CÁ NHÂN)*/
+    .leftbo {
+        width: 84%;
+        margin-left: 6rem;
+    }
+    /* -----------------------------------------khoảng cách các list của mục (THÔNG TIN CÁ NHÂN) */
+    .leftbo li {
+        line-height: 2;
+    }
+    /* -----------------------------------------BỐ CỤC GRID 2 cột cho mục (THÔNG TIN NĂNG LỰC CÁ NHÂN) */
+    .boxgrid {
+        display: grid;
+        grid-template-columns: 75% 75%;
+        column-gap: 2rem;
+        padding-left: 21rem;
+    }
+    /* -----------------------------------------KHOẢNG CÁCH BÊN TRÁI CỦA MỤC (THÔNG TIN NĂNG LỰC CÁ NHÂN) */
+    /* .boxgrid {
+        padding-left: 12rem;
+        position: relative;
+        left: 18.3rem;
+    } */
+    /* -----------------------------------------kích thước icon chung của (MỤC THÔNG TIN NĂNG LỰC CÁ NHÂN) */
+    .boxgrid i {
+        font-size: 1.7rem;
+        left: -3rem;
+        top: -1rem;
+        position: relative;
+    }
+    .column {
+        margin-top: 6rem;
+    }
+    /* -----------------------------------------dấu chấm thứ nhất của phần (kinh nghiệm) */
+    .empty-column {
+        width: 7%;
+        transform: scaleY(1.6);
+    }
+    /* ----------------------khoảng cách text của chấm thứ 1 phần "KINH NGHIỆM" */
+    .boxmin {
+        margin-top: -0.5rem;
+        margin-left: 1rem;
+    }
+    /* khoảng cách  text của chấm thứ 2 phần "KINH NGHIỆM" */
+    .mincolum {
+        margin-top: 2.6rem;
+        margin-left: 1rem;
+    }
+    /* khoảng cách bên trái của mục thứ 2 phần "KINH NGHIỆM" */
+    .flexbox2 {
+        margin-left: -2.1rem;
+    }
+    /* -----------------------------------------dấu chấm thứ 2 của phần (kinh nghiệm) */
+    .empty-column1 {
+        width: 3%;
+        transform: scaleY(1.6);
+    }
+    /*----------------------------------------- dấu chấm thứ 1 của phần "HOẠT ĐỘNG" */
+    .empty-column2 {
+        width: 3.2%;
+        transform: scaleY(1.9);
+    }
+    /*----------------------------------------- khoảng cách text của chấm thứ 1 phần "HOẠT ĐỘNG" */
+    .onecolumn {
+        margin-top: -0.4rem;
+        margin-left: 1rem;
+    }
+    /*----------------------------------------- dấu chấm thứ 1 của phần "HOẠT ĐỘNG" */
+    .empty-column3 {
+        width: 3.2%;
+        transform: scaleY(1.7);
+    }
+    /* -----------------------------------------------------------------DẤU CHẤM THỨ 1 CỦA PHẦN "HỌC VẤN" */
+    .boder--2 {
+        width: 3.3%;
+        transform: scaleY(1.9);
+    }
+    /*------------------------------------------------------------------ dấu chấm thứ 2 của cột (HỌC VẤN) */
+    .empty-column4 {
+        width: 3.3%;
+        transform: scaleY(1.7);
+    }
+    /*------------------------------------------------- khoảng cách bên trái mục thứ 2 của "HỌC VẤN" */
+    .flexbox5 {
+        margin-left: -1.5rem;
+        margin-top: 5rem;
+    }
+    /*------------------------------------------ KHOẢNG CÁCH VIỀN TRÊN và VIỀN DƯỚI CỦA MỤC (KĨ NĂNG) */
+    .text-layout3 {
+        margin-top: -14rem;
+        margin-bottom: 34rem;
+    }
+    .text-layout5 {
+        margin-top: -15rem !important;
+    }
+    /*------------------------------------------ KHOẢNG CÁCH VIỀN TRÊN VÀ VIỀN DƯỚI CỦA MỤC (SỞ THÍCH) */
+    .text-layout6 {
+        margin-top: -34rem !important;
+        margin-bottom: 36.2rem !important;
+    }
+    /* kích thước icon mục "SỞ THÍCH" */
+    #iconbo i {
+        font-size: 47px;
+    }
+    #iconbo {
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+    }
+    #iconbo p {
+        margin-left: -3rem;
+    }
+    .flexbomin {
+        padding-left: 1rem;
+    }
+    /*------------------------------------- kích thước icon 1 mục "SỞ THÍCH" */
+    .tex1-icon i {
+        width: 133% !important;
+        height: 65% !important;
+        transform: scale(1) !important;
+        padding-left: 1.2rem !important;
+        padding-top: 1.4rem !important;
+    }
+    .tex1-icon p {
+        position: relative;
+        top: -0.6rem;
+        left: 0.6rem;
+    }
+    /*------------------------------------- kích thước icon 2 mục "SỞ THÍCH" */
+    .text2-icon i {
+        width: 120% !important;
+        height: 54.2% !important;
+        transform: scale(1.2) !important;
+        padding-left: 1rem !important;
+    }
+    /*-------------------------------------- di chuyển bên trái mục icon thứ 2 "SỞ THÍCH" */
+    .text2-icon {
+        position: relative;
+        left: 2.5rem;
+        top: 0.4rem;
+    }
+    /*------------------------------------- kích thước icon 3 mục "SỞ THÍCH" */
+    .icsize i {
+        width: 98% !important;
+        height: 55.4% !important;
+        padding-left: 0.5rem !important;
+        padding-top: 1rem !important;
+        transform: scale(1.2) !important;
+    }
+    .icsize p {
+        position: relative;
+        left: 0.7rem;
+    }
+    /*-------------------------------------- di chuyển bên trái mục icon thứ 3 "SỞ THÍCH" */
+    .icsize {
+        position: relative;
+        left: 5rem;
+        top: 0.4rem;
+    }
+    /*------------------------------------- kích thước icon 4 mục "SỞ THÍCH" */
+    .lasticon--min i {
+        width: 100% !important;
+        height: 55.2% !important;
+        transform: scale(1.2) !important;
+        padding-left: 0.8rem !important;
+        padding-top: 0.9rem !important;
+    }
+    .lasticon--min p {
+        position: relative;
+        left: 0.5rem;
+    }
+    .lasticon--min {
+        position: relative;
+        top: 14rem;
+        left: -20.5rem;
+    }
+    /*------------------------------------------ khoảng cách các hộp con trong mục "NGÔN NGỮ" */
+    .language {
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+    /*------------------------------------------ CHIỀU RỘNG CỘT (CHỨNG CHỈ GIẢI THƯỞNG) */
+    .section-post {
+        width: 244%;
+        margin-top: -33rem !important;
+        padding-bottom: 120rem;
+    }
+    /* ------------------------------------------tạo khoảng cách của hộp nội dung "chứng chỉ-giải thưởng" */
+    .postbox {
+        padding: 6rem;
+        margin-left: 1rem;
+    }
+    .section-post p {
+        font-size: 31px !important;
+    }
+    /* ------------------------------------------khoảng cách và kích thước tiêu đề "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .section-post h2 {
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+    .postbox h2 {
+        font-size: 65px !important;
+    }
+    /*------------------------------------------- dùng thuộc tính phần tử cấp khối cho từng phần trong chứng chỉ-giải thưởng trở thành CỘT*/
+    .img1 {
+        display: block;
+    }
+    .distanceabove {
+        display: block;
+    }
+    /*------------------------------------------ chiều rộng và chiều cao của ảnh trong "chứng chỉ-giải thưởng" */
+    .columimg-fist .post {
+        width: 162%;
+        height: 10%;
+    }
+    .columimg-even .post {
+        width: 165%;
+        height: 10%;
+    }
+    .topbox .post {
+        width: 46%;
+        height: 10%;
+    }
+    /*------------------------------------------ khoảng cách viền trên của nội dung "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .columimg-fist {
+        margin-top: 19rem;
+        margin-left: 1rem;
+    }
+    .firstcolumn-content .boldtext-pot {
+        margin-bottom: 1.5rem !important;
+    }
+    /*------------------------------------------ khoảng cách bên trái của mục thứ 2 trong "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .columimg-even {
+        margin-left: -1rem;
+        height: 39rem;
+        position: relative;
+        left: 24rem;
+        top: -11rem;
+    }
+    /* ------------------------------------------khoảng cách mục icon thú 2 trong "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .nth--image {
+        margin-left: -2rem;
+        margin-top: 0.7rem;
+        position: relative;
+        left: 3rem;
+        top: -0.8rem;
+    }
+    /*------------------------------------------ khoảng cách viền trên của mục thứ 3 trong "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .topbox {
+        margin-top: 9rem;
+        width: 348%;
+    }
+    .columimg-last {
+        margin-top: 4rem;
+    }
+    .columimg-last .img1 {
+        margin-left: 1rem;
+    }
+    /* -----------------------------------------------CHỈNH SỬA MỤC (DỰ ÁN) */
+    .postbox-1 {
+        padding: 5rem;
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+    .postbox-1 h2 {
+        font-size: 71px !important;
+    }
+    .maxitem {
+        margin-top: 5rem;
+    }
+    .itemcoln-1 img {
+        width: 33rem;
+        height: 16rem;
+    }
+    /* -----------------------------chiều rộng côt 1 của "dự án" */
+    .cv--information {
+        width: 100%;
+        height: 74.5%;
+    }
+    /* --------------------------------kích thước hộp số của "DỰ ÁN" */
+    .number {
+        width: 4.7rem;
+        height: 2.5rem;
+        border-radius: 30px;
+        padding-left: 0.9rem;
+    }
+    .topicon {
+        margin-bottom: -4rem;
+    }
+    /* -------------------------------------bố cục và khoảng cách của ô icon Funix và Developer */
+    .boxlast-pot2 {
+        display: flex;
+        align-items: flex-start;
+        height: 6.5rem;
+        gap: 3rem;
+    }
+    .iconmax-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .iconmax-box {
+        margin-top: -1rem;
+    }
+    .iconmax-box i {
+        font-size: 25px;
+    }
+    /*------------------------------------- chiều rộng ảnh chung của cột 2 và cột 3*/
+    .itemcoln img {
+        width: 33rem;
+        height: 16rem;
+    }
+    /* ---------------------------------------------chiều rộng cột text thứ 2 của "DỰ ÁN" */
+    .boxtem {
+        width: 100%;
+        height: 74%;
+    }
+    /*------------------------------------chiều rộng cột text của cột 3 trong "DỰ ÁN" */
+    .final-column {
+        width: 100%;
+        height: 74%;
+    }
+    #box2 {
+        position: relative;
+        left: 4rem;
+    }
+    #box3 {
+        position: relative;
+        left: 8rem;
+    }
+    .iconaside {
+        width: 244%;
+    }
+    .layouticon {
+        height: 21rem;
+    }
+    /* khoảng cách mục icon Xã Hội */
+    .ic--bo1 {
+        position: relative;
+        left: -2rem;
+    }
+    .layouticon i {
+        transform: scale(2);
+    }
+    .layouticon p {
+        font-size: 2rem !important;
+    }
+    #minicon {
+        font-size: 1rem;
+        width: 3rem;
+        height: 3rem;
+        padding-left: 1.1rem;
+    }
+    #minicon {
+        display: flex;
+        gap: 2rem;
+    }
+    .ic--bo1 {
+        display: flex;
+        gap: 2rem;
+    }
+    .ic--bo2 {
+        display: flex;
+        gap: 4rem;
+        position: relative;
+        left: 5rem;
+    }
+    /* .iconaside p {
+                                    display: none;
+                                }
+                                #minicon i {
+                                    width: 48%;
+                                    height: 76%;
+                                    transform: scale(1);
+                                    font-size: 17px;
+                                    margin-top: 0.2rem;
+                                    padding: 0rem;
+                                } */
+}

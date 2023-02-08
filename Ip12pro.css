@@ -1,0 +1,606 @@
+@media only screen and (max-width:767px)
+/* (Iphone 12 pro) */
+
+{
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /*------------------ KÍCH THƯỚC TIÊU ĐỀ VÀ TEXT chung */
+    h2 {
+        font-size: 123px !important;
+    }
+    p {
+        font-size: 74px !important;
+    }
+    /*-- CHỈNH SỬA PHẦN HEADER-- */
+    /*------------------------------------ chiều rộng và chiều cao của ảnh */
+    #img {
+        width: 399%;
+        height: 170vh !important;
+    }
+    /* -----------------------------------chiều rộng và khoảng cách bên trái của mục MENU */
+    .navbar {
+        width: 250%;
+        margin-left: 9rem;
+    }
+    /* -----------------------------------KÍCH THƯỚC TIÊU ĐỀ VÀ TEXT CỦA HEADER */
+    .headermax h1 {
+        font-size: 160px;
+    }
+    .headermax p {
+        font-size: 74px !important;
+    }
+    /*----------------------------------- BỐ CỤC CỘT CHO MENU */
+    .navbar ul {
+        display: block;
+        margin-left: -17rem;
+        padding: 3rem;
+    }
+    .navbar li {
+        border: none;
+        font-size: 57px;
+        width: 100%;
+        line-height: 3;
+    }
+    /*----------------------------------- chỉnh sửa khoảng cách giữa icon và text của Menu */
+    .linktwo {
+        margin-left: -6rem;
+    }
+    .navbar i {
+        margin-left: 7rem;
+        font-size: 4rem !important;
+    }
+    /* -----------------------------------tạo bố cục CỘT cho mục ("Mục tiêu nghề nghiệp" và "Thông tin cá nhân") */
+    .row {
+        flex-direction: column;
+    }
+    .row {
+        margin: 10px auto;
+        width: 952%;
+    }
+    .widthbox {
+        margin: 0 auto;
+        width: 91rem;
+        padding-left: 2rem;
+    }
+    /*------------------------------------- kích thước chữ của cột "MỤC TIÊU NGHỀ NGHIỆP" */
+    .widthbox h2 {
+        margin-top: 26rem;
+        margin-bottom: 12rem;
+    }
+    /*-------------------------------------- chiều cao của cột "MỤC TIÊU NGHỀ NGHIỆP" */
+    #colmin-box-1 {
+        height: 123rem;
+    }
+    /*-------------------------------------- chiều rộng của nội dung "thông tin cá nhân" */
+    .leftbo {
+        margin: 0 auto;
+        width: 80rem;
+        height: 161rem;
+    }
+    /*-------------------------------------- KÍCH THƯỚC CHỮ CỦA CỘT "THÔNG TIN CÁ NHÂN" */
+    .leftbo h2 {
+        font-size: 123px !important;
+        margin-top: 26rem;
+        margin-bottom: 12rem;
+    }
+    .leftbo ul {
+        font-size: 74px;
+        margin-left: -1rem;
+        width: 91rem;
+    }
+    /*------------------------------------------ khoảng cách giữa các li */
+    .leftbo li {
+        line-height: 2.5;
+    }
+    /* --------------------------------------kích thước và khoảng cách các icon mục "THÔNG TIN NGHỀ NGHIỆP" */
+    .flexcol--icon {
+        font-size: 74px;
+        margin-left: 1rem;
+        margin-top: 10rem;
+    }
+    /* ---------------------------------------bố cục cột cho phần "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+    .boxgrid {
+        display: block;
+    }
+    /*--------------------------------------- chỉnh sửa phần "kinh nghiệm" */
+    .text-layout1 {
+        width: 93rem;
+        margin-left: -19rem;
+        margin-top: 5rem;
+        height: 214rem;
+    }
+    .boldbox {
+        padding-left: 4rem;
+        padding-right: 5rem;
+        border-radius: 30px;
+    }
+    /*---------------------------------------- khoảng cách viền trên và viền trái của mục text phần "KINH NGHIỆM" */
+    .flexbox {
+        margin-top: 19rem;
+        margin-left: 5rem;
+    }
+    /* ----------------------------------------kích thước ICON chung của mục "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+    .boxgrid i {
+        font-size: 80px;
+        position: relative;
+        left: -9rem;
+    }
+    .topcolone {
+        margin-top: 24rem;
+    }
+    .text-layout1,
+    .text-layout2,
+    .text-layout3,
+    .text-layout4,
+    .text-layout5,
+    .text-layout6 {
+        border: 1px solid #adb5bd;
+    }
+    /*------------------------------------------ khoảng cách bên trái  của mục mục nội dung "kinh nghiệm" */
+    .topcolone h2 {
+        margin-left: 4rem;
+    }
+    /*------------------------------------------- kích thước chấm thứ 1 của cột "KINH NGHIỆM" */
+    .empty-column {
+        width: 6%;
+        height: 5%;
+        transform: scale(2);
+    }
+    /* -------------------------------------------khoảng cách giữa text và chấm thứ 1 của phần "KINH NGHIỆM" */
+    #box1 {
+        margin-left: 7rem;
+        margin-top: -2.4rem;
+    }
+    /*------------------------------------------ kích thước chấm thứ 2 phần "KINH NGHIỆM" */
+    .empty-column1 {
+        width: 5.8%;
+        transform: scaleY(4.7);
+        margin-left: -8rem;
+    }
+    .mincolum {
+        margin-top: 0.1rem;
+        margin-left: 6rem;
+    }
+    /*--- khoảng cách viền trên của mục thứ 2 phần "KINH NGHIỆM" ---*/
+    .flexbox2 {
+        margin-top: 14rem;
+    }
+    /* ------------------------------------------chiều rộng cột "HOẠT ĐỘNG" */
+    .text-layout2 {
+        width: 93rem;
+        margin-left: -19rem;
+        margin-top: 5rem;
+        height: 142rem;
+    }
+    /*--------------------- khoảng cách viền trên của mục nội dung "HOẠT ĐỘNG" */
+    .toptwocol {
+        margin-top: 24rem;
+    }
+    /*---------------------- khoảng cách bên trái cho tiêu đề mục "HOẠT ĐỘNG" */
+    .toptwocol h2 {
+        margin-left: 4rem;
+    }
+    .flexbox3 {
+        margin-left: 5rem;
+        margin-top: 15rem;
+    }
+    /* ------------------------------------------kích thước chấm thứ 1 của "HOẠT ĐỘNG" */
+    .empty-column2 {
+        width: 3.9%;
+        transform: scaleY(5.5);
+    }
+    /* khoảng cách text với chấm thứ 1 của "HOẠT ĐỘNG" */
+    .onecolumn {
+        margin-left: 7rem;
+        margin-top: -2.7rem;
+    }
+    /*-------------------------------------------- kích thước chấm thứ 2 của "HOẠT ĐỘNG" */
+    .empty-column3 {
+        width: 3.5%;
+        transform: scaleY(4.5);
+    }
+    /* -------------------------------------------khoảng cách viền trên và viền trái text thứ 2 của mục "HOẠT ĐỘNG" */
+    .flexbox4 {
+        margin-left: 5rem;
+        margin-top: 15rem;
+    }
+    .range {
+        margin-left: 7rem;
+        margin-top: -3rem;
+    }
+    /* ---------------------------------------------chiều rộng cột "HỌC VẤN" */
+    .text-layout4 {
+        width: 93rem;
+        margin-left: -19rem;
+        margin-top: -9rem;
+        height: 163rem;
+    }
+    .education {
+        margin-top: 24rem;
+    }
+    .education h2 {
+        margin-left: 5rem;
+    }
+    /* -------------------------------------------kích thước chấm thứ 1 của "HỌC VẤN" */
+    .boder--2 {
+        width: 4.8%;
+        transform: scaleY(5.5);
+    }
+    /*------------------------------------------- khoảng cách text với chấm thứ 1 của "HỌC VẤN" */
+    .lt--colun {
+        margin-top: -3rem;
+        margin-left: 8rem;
+    }
+    /*------------------------------------------- kích thước chấm thứ 2 của "HỌC VẤN" */
+    .empty-column4 {
+        width: 3.8%;
+        transform: scaleY(4.5);
+    }
+    .flexbox5 {
+        margin-left: -2.2rem;
+        margin-top: 15rem;
+    }
+    .toplef--box {
+        margin-top: -3rem;
+        margin-left: 7rem;
+    }
+    /*-------------------------------------------- chiều rộng cột "KĨ NĂNG" */
+    .educationcolumn-distance {
+        width: 93rem;
+        margin-left: -19rem;
+        margin-top: -9rem;
+        height: 155rem;
+    }
+    .bomin {
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .bormobie {
+        margin-top: 15rem;
+    }
+    .bar {
+        transform: scale(3);
+        width: 5%;
+        margin-left: 13rem;
+    }
+    .maxbar-bo {
+        margin-left: -8rem;
+        margin-top: 3rem;
+    }
+    /*----------------------------------------------- chỉnh sửa cột "NGÔN NGỮ" */
+    .text-layout5 {
+        width: 93rem;
+        margin-left: -19rem;
+        margin-top: -28rem !important;
+        height: 118rem;
+    }
+    .miniheader {
+        margin-top: 24rem;
+    }
+    .miniheader h2 {
+        margin-left: 5rem;
+    }
+    .language {
+        margin-top: 14rem;
+    }
+    /* -----------------------------------------------chỉnh sửa cột "SỞ THÍCH" */
+    .text-layout6 {
+        width: 93rem;
+        margin-left: -19rem;
+        margin-top: -31rem !important;
+        height: 132rem;
+    }
+    #iconbo {
+        margin-top: 15rem;
+        margin-left: 16rem;
+    }
+    /*---------------------------------------- kích thước icon */
+    /* ----------------icon âm nhạc------------------- */
+    .tex1-icon i {
+        transform: scale(2) !important;
+        border-radius: 50% !important;
+        width: 54% !important;
+        text-align: center !important;
+        padding: 2.1rem !important;
+        padding-left: 2.5rem !important;
+        height: 49% !important;
+        /* font-size: 60px; */
+        margin-left: 3rem !important;
+    }
+    .tex1-icon p {
+        position: relative;
+        top: 5rem;
+        left: -8rem;
+    }
+    /*---------------- icon chơi game-------------------- */
+    .text2-icon i {
+        transform: scale(2) !important;
+        border-radius: 50% !important;
+        width: 42% !important;
+        text-align: center !important;
+        padding: 2.1rem !important;
+        padding-left: 2.5rem !important;
+        height: 50% !important;
+        font-size: 60px;
+        margin-left: 12rem !important;
+    }
+    .text2-icon p {
+        position: relative;
+        top: 4.7rem;
+        left: -1rem;
+    }
+    /* -----------------icon du lịch----------------------- */
+    .icsize i {
+        transform: scale(2) !important;
+        border-radius: 50% !important;
+        width: 78% !important;
+        text-align: center !important;
+        padding: 2.1rem !important;
+        padding-left: 2rem !important;
+        height: 50% !important;
+        font-size: 60px;
+        position: relative;
+        left: 15rem;
+    }
+    .icsize p {
+        position: relative;
+        top: 4.6rem;
+        left: 16rem;
+    }
+    .icsize {
+        position: relative;
+        left: -4rem;
+    }
+    /*------------------- icon nấu ăn ----------------------*/
+    .lasticon--min i {
+        transform: scale(2) !important;
+        border-radius: 50% !important;
+        width: 73% !important;
+        text-align: center !important;
+        padding: 2rem !important;
+        padding-left: 2rem !important;
+        height: 50% !important;
+        font-size: 60px;
+    }
+    .lasticon--min {
+        position: relative;
+        top: 31rem;
+        left: -48rem;
+    }
+    .lasticon--min p {
+        position: relative;
+        top: 5rem;
+        left: -9rem;
+    }
+    /* --------------------------------chiều rộng mục "chứng chỉ-giải thưởng"------------------------ */
+    .section-post {
+        width: 99rem;
+        margin-top: -29rem !important;
+        height: 333rem;
+    }
+    /*--------------------------------- khoảng cách viền trên nội dung "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .postbox {
+        padding-top: 21rem;
+    }
+    /* ---------------------------------bố cục cột cho nội dung text "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .columimg-fist {
+        display: flex;
+        flex-direction: column;
+    }
+    /* ------------------------------chiều rộng ảnh cột thứ 1 phần "CHỨNG CHỈ-GIẢI THƯỞNG" */
+    .distanceabove img {
+        width: 132% !important;
+        margin-top: 9rem;
+    }
+    /* chiều rộng cột thứ 2 trong "CHỨNG CHỈ - GIẢI THƯỞNG" */
+    .columimg-even {
+        width: 71% !important;
+        margin-top: 9rem;
+    }
+    .columimg-fist p {
+        font-size: 74px !important;
+        margin-top: 1rem;
+    }
+    .upperborder-distance {
+        margin-top: 5rem;
+    }
+    /*--------------------------kích thước chữ cột thứ 2 */
+    .secondcolumn-content p {
+        font-size: 74px;
+        margin-top: 1rem;
+    }
+    /*----------------------------------- chiều rộng thanh border của cột thứ 2 */
+    .columimg-even {
+        border: none;
+        border-top: 1px solid #ff6b6b;
+        width: 135% !important;
+        margin-top: 2rem;
+        margin-left: -25rem;
+    }
+    /* -----------------------------------chiều rộng ảnh cột thứ 2 */
+    .nth--image img {
+        width: 96% !important;
+    }
+    /*--------------------------------------khoảng cách viền trên và viền dưới nội dung cột thứ 2 */
+    .nth--image {
+        margin-top: 13rem !important;
+        margin-left: -5rem;
+    }
+    /*----------------------------------- chiều rộng thanh border của cột thứ 3 */
+    .topbox {
+        border: none;
+        border-top: 1px solid #ff6b6b;
+        width: 135%;
+        margin-top: 31rem;
+    }
+    .topbox .columimg-last {
+        margin-top: 10rem;
+    }
+    .topbox img {
+        width: 99% !important;
+    }
+    .postbox h2 {
+        font-size: 100px !important;
+    }
+    /* ///////////////////////////////////////////////////////////////////////////////// */
+    /* -----------------------khoảng cách viền trên của "DỰ ÁN" */
+    .project {
+        margin-top: 20rem;
+    }
+    .project h2 {
+        font-size: 100px !important;
+    }
+    /*------------------------ khoảng cách viền trên nội dung "DỰ ÁN" */
+    .maxitem {
+        margin-top: 13rem;
+    }
+    /*------------------------------------- bố cục CỘT "DỰ ÁN" */
+    .maxitem {
+        flex-direction: column;
+    }
+    /* -----------------------------------chiều rộng ảnh thứ 1 của cột "DỰ ÁN" */
+    .itemcoln-1 img {
+        width: 84rem;
+        height: 50rem;
+    }
+    /*------------------------------------ chiều rộng cột text thứ 1 cột "DỰ ÁN" */
+    .cv--information {
+        width: 84rem;
+        height: 137rem;
+    }
+    .postbox-1 p {
+        font-size: 74px;
+    }
+    /*------------------------------------- mục CV cá nhân */
+    .personal-cv {
+        padding: 4rem;
+    }
+    /* đường border của 3 cột */
+    .potimage {
+        border: 1px solid #adb5bd;
+    }
+    .boxlast-pot1,
+    .boxlast-pot2,
+    .boxlast-pot3 {
+        border-bottom: 1px solid #868e96;
+    }
+    .nonebor {
+        border-bottom: none;
+    }
+    /*---------------------------------------- kích thước khung số */
+    .number {
+        transform: scale(4.5);
+        height: 2rem;
+        width: 4rem;
+    }
+    /*---------------------------------------- kích thước số của khung số */
+    .numbersize {
+        font-size: 15px !important;
+        padding-left: 0.2rem;
+        padding-top: 0.2rem;
+    }
+    /*---------------------------------------- kích thước icon */
+    .icon i {
+        font-size: 74px;
+    }
+    /* ---------------------------------------chiều cao cột của ô "funix và developer" */
+    .boxlast-pot2 {
+        height: 26rem;
+        margin-top: 6rem;
+        padding-left: 11rem;
+    }
+    /* --------------------------------------khoảng cách viền trái và viền trên của mục text cột icon "funix và developer" */
+    .iconmax-box {
+        margin-top: 8rem;
+        margin-left: -12rem;
+    }
+    .boxlast-pot3 {
+        width: 100%;
+        margin-top: 4rem;
+    }
+    /* ----------------------------------------chiều rộng text và khoảng cách phần "nhiệm vụ" */
+    .mission {
+        width: 20rem;
+        margin-left: 4rem;
+    }
+    .lasfit {
+        margin-left: 26rem;
+        width: 50rem;
+    }
+    /* phần "mô tả" */
+    .onefist {
+        width: 13rem;
+        margin-left: 4rem;
+    }
+    /* phần "công nghệ" */
+    .technology {
+        width: 30rem;
+        margin-left: 4rem;
+        border-bottom: none;
+    }
+    /*----------------------------------------- chiều rộng ảnh của cột thứ 2 "DỰ ÁN" */
+    .itemcoln img {
+        width: 84rem;
+        height: 50rem;
+    }
+    /* chiều rộng cột text thứ 2 "DỰ ÁN" */
+    .boxtem {
+        width: 84rem;
+        height: 159rem;
+    }
+    /* khoảng cách cột thứ 2 "DỰ ÁN" */
+    #box2 {
+        margin-left: -4rem;
+        margin-top: 15rem;
+    }
+    /* khoảng cách cột thứ 3 của "DỰ ÁN" */
+    #box3 {
+        margin-left: -9rem;
+        margin-top: 15rem;
+    }
+    /* chiều rộng ảnh của cột thứ 3 */
+    #box3 img {
+        width: 86rem;
+        height: 50rem;
+    }
+    /* chiều rộng cột text của cột thứ 3 */
+    .final-column {
+        width: 86rem;
+        height: 145rem;
+    }
+    /* chiều rộng của mục icon xã hội */
+    .iconaside {
+        width: 103rem;
+    }
+    /* ẩn dòng text của mục icon xã hội */
+    .iconaside p {
+        display: none;
+    }
+    /* chiều cao mục icon xã hội */
+    .layouticon {
+        height: 50rem;
+        margin-left: -21rem;
+    }
+    /* kích thước icon đầu và cuối */
+    .layouticon i {
+        transform: scale(8);
+    }
+    /* chỉnh sửa icon ở giữa */
+    #minicon i {
+        padding-left: 0.8rem;
+        font-size: 12px;
+    }
+    /* kích thước vỏ icon ở giữa */
+    #minicon {
+        margin-left: 10rem;
+        width: 8.2%;
+        height: 19%;
+        transform: scale(1.4);
+    }
+    .ic--bo2 {
+        margin-left: -10rem;
+    }
+}
